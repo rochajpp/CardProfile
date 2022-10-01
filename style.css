@@ -35,7 +35,6 @@ body{
     box-shadow: 10px 10px 50px black;
 }
 .contentBox{
-    padding: 1.5rem 0rem;
     width: 29rem;
     height: 35rem;
     display: flex;
