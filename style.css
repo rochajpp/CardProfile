@@ -17,6 +17,7 @@ body{
 .contentTotal{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -39,6 +40,8 @@ body{
     height: 35rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
 .contentBox div{
@@ -82,6 +85,11 @@ body{
     flex-direction: row;
     gap: 2rem;
     font-size: 0.8rem;
+    margin-top: 1rem;
+    
+}
+.infoProgrammer a{
+    text-decoration: none;
 }
 .infoProgrammer div{
     display: flex;
@@ -91,9 +99,51 @@ body{
 .infoProgrammer div p{
     color: var(--secondaryColor);
 }
-.email{
-   
+.infoProgrammer h1{
+    font-size: 1rem;
+    color: var(--primaryColor);
+    
 }
 .email h1{
-    font-size: 0.8rem;
+    transition: 1s;
+}
+.email h1:hover{
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    color: rgb(0, 195, 255);
+}
+.number h1{
+    letter-spacing: 0.2rem;
+}
+.socialNetwork img{
+    margin-top: 2rem;
+    width: 4rem;
+    transition: 0.5s;
+}
+.socialNetwork{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.socialNetwork img:hover{
+    cursor: pointer;
+    width: 5rem;
+}
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    width: 20rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    transition: 0.5s;
+}
+.portfolio:hover{
+    cursor: pointer;
+    background-color: var(--secondaryColor);
 }
